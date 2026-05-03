@@ -1,65 +1,88 @@
-# Simple Calculator.
+# 🧮 Simple Calculator
 
-Hey there! This is a simple calculator I built using plain HTML, CSS, and JavaScript — no frameworks, no libraries, just the basics.
+A clean and responsive calculator built using **HTML, CSS, and JavaScript** — no frameworks, just core web fundamentals.
 
-I made this as a fun little project to practice front-end fundamentals. It's nothing fancy, but it works great and I'm pretty happy with how it turned out visually!
-
----
-
-## What it looks like
-
-Dark background, glowing teal operators, and chunky rounded buttons — kind of a neumorphic vibe. It feels satisfying to click.
+This project was created to practice front-end basics and UI styling, with a focus on simplicity and user experience.
 
 ---
 
-## What it can do
+## 📸 Preview
 
-- Add, subtract, multiply, and divide
-- Handle decimals
-- Delete the last digit with **DE** (because typos happen)
-- Wipe everything clean with **AC**
-- Evaluate your expression instantly with **=**
-
-Nothing groundbreaking, but all the everyday stuff you'd want from a calculator.
+![Calculator](screenshot.png)
 
 ---
 
-## How to run it
+## ✨ Features
 
-It's just two files — no setup needed.
+* ➕ Addition, ➖ Subtraction, ✖️ Multiplication, ➗ Division
+* 🔢 Decimal number support
+* ⌫ Delete last digit (**DE**)
+* 🧹 Clear all input (**AC**)
+* ⚡ Instant evaluation using `=`
+* 🎨 Modern UI with neumorphic-style design
+
+---
+
+## 🛠️ Tech Stack
+
+* HTML5
+* CSS3 (Flexbox, shadows, styling)
+* JavaScript (Vanilla JS)
+
+---
+
+## 📂 Project Structure
+
+```
+calculator/
+│── calculator.html
+│── style.css
+│── screenshot.png
+```
+
+---
+
+## ▶️ How to Run
 
 ```bash
 git clone https://github.com/DilipHS/Calculator.git
 cd Calculator
 ```
 
-Then just open `calculator.html` in your browser. That's it!
+Open `calculator.html` in your browser — no setup required.
 
 ---
 
-## Files
+## 💡 How It Works
 
-```
-calculator.html   → the calculator layout
-style.css         → all the styling
-```
-
----
-
-## Built with
-
-- HTML & CSS for structure and styling
-- Vanilla JavaScript for the logic
-- Poppins font from Google Fonts (because it looks clean)
+* Button clicks update the display using JavaScript
+* Expressions are evaluated dynamically
+* Result is displayed instantly
 
 ---
 
-## A note on `eval()`
+## ⚠️ Note on `eval()`
 
-The calculator uses JavaScript's `eval()` to compute expressions. It works perfectly for personal use, but just so you know — `eval()` isn't recommended in production apps for security reasons. For a project like this, it's totally fine!
+This project uses JavaScript’s `eval()` function to evaluate expressions.
+
+While it's perfectly fine for learning and small projects, it is **not recommended for production applications** due to security concerns.
 
 ---
 
-Thanks for checking this out. Feel free to fork it, tweak it, or just use it if you need a quick calculator. 😊
+## 🚀 Future Improvements
 
-— **Dilip**
+* Keyboard input support
+* Error handling for invalid expressions
+* Dark/Light theme toggle
+* Replace `eval()` with custom parser
+
+---
+
+## 🙌 Author
+
+**Dilip H S**
+B.Tech CSE | Aspiring Software & AI Engineer
+
+---
+
+⭐ If you like this project, feel free to fork it and give it a star!
